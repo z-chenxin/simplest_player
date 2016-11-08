@@ -1,0 +1,1 @@
+/usr/bin/gcc      CMakeFiles/pjsdl.dir/pjsdl.c.o CMakeFiles/pjsdl.dir/pjffmpeg.c.o CMakeFiles/pjsdl.dir/util.c.o CMakeFiles/pjsdl.dir/play.c.o  -o pjsdl -rdynamic -L/usr/local/SDL2/lib -lavcodec -lswscale -lavformat -lavutil -lSDL2 -Wl,-rpath,/usr/local/SDL2/lib 

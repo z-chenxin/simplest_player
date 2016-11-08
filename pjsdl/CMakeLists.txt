@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+project(pjsdl)
+set(src pjsdl.c pjffmpeg.c util.c play.c)
+include_directories(/usr/local/SDL2/include/SDL2)
+link_directories(/usr/local/SDL2/lib)
+link_libraries(avcodec swscale avformat avutil SDL2)
+add_executable(pjsdl ${src})
